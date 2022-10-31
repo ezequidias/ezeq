@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   css: [
     'assets/vendor/bootstrap/css/bootstrap.min.css',
     '@/assets/scss/style.scss',
+    'remixicon/fonts/remixicon.css',
   ],
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },

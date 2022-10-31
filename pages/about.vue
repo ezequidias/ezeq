@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { RiCodeSSlashFill, RiDatabase2Line, RiFileList3Line, RiGlobalLine } from 'vue-remix-icons'
 </script>
 
 <template>
@@ -45,49 +44,49 @@ import { RiCodeSSlashFill, RiDatabase2Line, RiFileList3Line, RiGlobalLine } from
         <div class="row">
           <div class="col-lg-3 col-md-4">
             <div class="icon-box">
-              <span style="padding-right:10px"><RiGlobalLine width="32" height="32" fill="#ffbb2c" /></span>
+              <i class="ri-global-line" style="color: #ffbb2c;" />
               <h3>Software Development</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-md-0 mt-4">
             <div class="icon-box">
-              <span style="padding-right:10px"><RiDatabase2Line width="32" height="32" fill="#5578ff" /></span>
+              <i class="ri-database-2-line" style="color: #5578ff;" />
               <h3>Machine Learning</h3>
             </div>
           </div>
           <!-- <div class="col-lg-3 col-md-4 mt-md-0 mt-4">
             <div class="icon-box">
-              <span style="padding-right:10px"><RiCamera3Line width="32" height="32" fill="#e80328" /></span>
+              <i class="ri-camera-3-line" style="color: #e80368;"></i>
               <h3>Computer Vision</h3>
             </div>
           </div> -->
           <!-- <div class="col-lg-3 col-md-4 mt-lg-0 mt-4">
             <div class="icon-box">
-              <span style="padding-right:10px"><RiEnglishInput width="32" height="32" fill="#1c7d32" /></span>
+              <i class="ri-english-input" style="color: #1c7d32;"></i>
               <h3>Natural Language Processing</h3>
             </div>
           </div> -->
           <div class="col-lg-3 col-md-4">
             <div class="icon-box">
-              <span style="padding-right:10px"><RiCodeSSlashFill width="32" height="32" fill="#28a745" /></span>
+              <i class="ri-code-s-slash-fill" style="color: #28a745;" />
               <h3>Software Engineering</h3>
             </div>
           </div>
           <!-- <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
-              <span style="padding-right:10px"><RiBarChartBoxLine width="32" height="32" fill="#f1081f" /></span>
+              <i class="ri-bar-chart-box-line" style="color: #f1081f;"></i>
               <h3>Visualization</h3>
             </div>
           </div> -->
           <div class="col-lg-3 col-md-4">
             <div class="icon-box">
-              <span style="padding-right:10px"><RiFileList3Line width="32" height="32" fill="#47aeff" /></span>
+              <i class="ri-file-list-3-line" style="color: #47aeff;" />
               <h3>Algorithms</h3>
             </div>
           </div>
           <!-- <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
-              <span style="padding-right:10px"><RiImageLine width="32" height="32" fill="#ffc107" /></span>
+              <i class="ri-image-line" style="color: #ffc107;"></i>
               <h3>Image Processing</h3>
             </div>
           </div> -->

@@ -35,6 +35,6 @@
   },
   "dependencies": {
     "@duskmoon/vue3-typed-js": "^0.0.2",
-    "vue-remix-icons": "^2.0.3"
+    "remixicon": "^2.5.0"
   }
 }
