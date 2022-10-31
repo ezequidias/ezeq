@@ -11,9 +11,6 @@
     "lint": "npm-run-all lint:*",
     "lint:types": "nuxi typecheck",
     "lint:style": "eslint .",
-    "test": "npm-run-all postinstall && TZ=UTC vitest --run",
-    "test:watch": "npm-run-all postinstall && TZ=UTC vitest",
-    "test:ui": "npm-run-all postinstall && TZ=UTC vitest --ui",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
     "postinstall": "nuxi prepare"
@@ -21,10 +18,13 @@
   "devDependencies": {
     "@antfu/eslint-config-vue": "^0.27.0",
     "@iconify/vue": "^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
     "@vitejs/plugin-vue": "^3.2.0",
     "eslint": "^8.26.0",
     "eslint-plugin-tailwindcss": "^3.6.2",
     "eslint-plugin-vue": "^9.7.0",
+    "lint-staged": "^13.0.3",
     "nuxt": "3.0.0-rc.12",
     "sass": "^1.55.0",
     "unplugin-auto-import": "^0.11.4",
