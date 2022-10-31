@@ -1,42 +1,36 @@
-# Nuxt 3 Minimal Starter
+# Personal Portfolio 🔥 Nuxt.JS + Vite + Docker
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+:star: Star me on GitHub — it helps!
 
-## Setup
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/rajaprerak/rajaprerak.github.io/commits/master)
+[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://rajaprerak.github.io/)
+[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/ezee/)
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-Make sure to install the dependencies:
+### Website Preview
+#### Home Page
+<img src="public/img/home.png" width="900">
 
-```bash
-# yarn
-yarn install
 
-# npm
-npm install
+## Features 📋
+⚡️ Nuxt.js 3 (Vue.JS 3)\
+⚡️ Eslint\
+⚡️ Docker\
+⚡️ Page Animations\
+⚡️ Fully Responsive\
+⚡️ Valid HTML5 & CSS3\
+⚡️ Typing animation using `Typed.js`\
+⚡️ Easy to modify
 
-# pnpm
-pnpm install --shamefully-hoist
-```
+## Sections 📚
+✔️ About\
+✔️ Interests\
+✔️ Projects \
+✔️ Skills \
+✔️ Contact Info
 
-## Development Server
 
-Start the development server on http://localhost:3000
+## License
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
