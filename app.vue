@@ -1,8 +1,17 @@
 <template>
-  <div class="h-screen w-full bg-white dark:bg-gray-800 dark:text-gray-100">
-    <Head>
-      <Title>sidebase</Title>
-    </Head>
+  <NuxtLayout>
     <NuxtPage />
-  </div>
+  </NuxtLayout>
 </template>
+
+<style>
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+</style>
