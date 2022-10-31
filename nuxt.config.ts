@@ -19,6 +19,12 @@ export default defineNuxtConfig({
     head: {
       script: [
         { src: 'vendor/jquery/jquery.min.js' },
+        { src: 'vendor/bootstrap/js/bootstrap.bundle.min.js' },
+        { src: 'vendor/waypoints/jquery.waypoints.min.js' },
+        { src: 'vendor/counterup/counterup.min.js' },
+        { src: 'vendor/owl.carousel/owl.carousel.min.js' },
+        { src: 'vendor/isotope-layout/isotope.pkgd.min.js' },
+        { src: 'vendor/venobox/venobox.min.js' },
         { src: 'js/main.js' },
       ],
       link: [

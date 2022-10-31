@@ -42,7 +42,7 @@ const menus = [
           I'm <span class="typing" style="color:#12D640" />
         </Typed>
       </h2>
-      <nav class="nav-menu d-none d-lg-block">
+      <nav class="nav-menu">
         <ul>
           <li v-for="item, index in menus" :key="index" :class="{ active: item.to === route.path }">
             <NuxtLink :to="item.to">
